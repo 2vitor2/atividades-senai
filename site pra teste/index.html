@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <header style="position: sticky; top: 20px; z-index: 1;">
+
+      <!---------------------------------------------------------cabeçalho----------------------------------------------------------->
+
+      <cabeca class="Cabeçalho">
+        <div class="container">
+            <nav  class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">
+                      <img src="imagens/icon.jpg"/>
+                  </a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Seja Assinante</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Assuntos
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link disabled">Faça Login</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link disabled">Registre-se</a>
+                      </li>
+                    </ul>
+                    <form class="d-flex">
+                      <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search">
+                      <button class="btn btn-outline-success" type="submit">Pesquisar</button>
+                    </form>
+                  </div>
+                </div>
+              </nav></div>
+            </cabeca>  
+    </header>
+
+  </head>
+
+<br>
+<br>
+
+<body>
+
+  <!---------------------------------------------------------carrocel----------------------------------------------------------->
+
+    <carrocel class="carrocel">
+    <div class="carouselslide">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2" style="position: absolute; top: 570px;"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"  style="position: absolute; top: 570px;"></button>
+            </div>
+            <div class="carousel-inner" style="height: 600px;">
+              <div class="carousel-item active">
+                <a href="index.html">
+                <img src="imagens/bolsonaro1.png" class="d-block w-100"></a>
+                <div style="position: absolute; top: 480px;" class="carousel-caption d-none d-md-block">
+                  <a style="color: rgb(255, 255, 255);
+                  text-decoration: none;" href="index.html">
+                  <h5>Bolsonaro fez coisas</h5>
+                  <p>Fez mesmo. Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda earum animi perspiciatis, voluptas dolorum dolorem quibusdam exercitationem incidunt quae id saepe consequatur ad commodi amet architecto repellat maiores? Repellendus, numquam.</p></a>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <a href="index.html">
+                <img src="imagens/bolsonaro2.png" class="d-block w-100"></a>
+                <div style="position: absolute; top: 480px;" class="carousel-caption d-none d-md-block">
+                  <a style="color: rgb(255, 255, 255);
+                    text-decoration: none;" href="index.html">
+                  <h5>"Eu fiz coisas"</h5>
+                  <p>Diz Bolsonaro. Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda earum animi perspiciatis, voluptas dolorum dolorem quibusdam exercitationem incidunt quae id saepe consequatur ad commodi amet architecto repellat maiores? Repellendus, numquam.</p></a>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <a href="index.html">
+                <img src="imagens/bolsonaro3.png" class="d-block w-100"></a>
+                <div style="position: absolute; top: 480px;" class="carousel-caption d-none d-md-block">
+                  <a style="color: rgb(255, 255, 255);
+                  text-decoration: none;" href="index.html">
+                  <h5>"Mas e dai, cara?"</h5>
+                  <p>Implica Bolsonaro. Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda earum animi perspiciatis, voluptas dolorum dolorem quibusdam exercitationem incidunt quae id saepe consequatur ad commodi amet architecto repellat maiores? Repellendus, numquam.</p></a>
+                </div>
+              </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div></carrocel>
+<a href="index.html">
+ <img style="height: 100px; width: 100%; margin: 20px;" src="imagens/placeholder.jpg" class="">
+</a>
+<br>
+<hr>
+
+<h1 style="text-align: center; text-decoration: underline;"> Hoje em dia </h1>
+
+<br>
+
+<a href="index.html">
+<img style="height: 900px; width: 250px;" src="imagens/placeholder.jpg" class="rounded float-start">
+<img style="height: 900px; width: 250px;" src="imagens/placeholder.jpg" class="rounded float-end">
+</a>
+
+<!---------------------------------------------------------destaques----------------------------------------------------------->
+
+<destaques class="destaques">
+          <div class="container2">
+            <div class="row row-cols-2">
+              <div class="clearfix">
+                <a href="index.html">
+                <img src="imagens/cachorro.png" class="col-md-3 float-md-3 mb-3 ms-md-3" alt="...">
+              </a>
+                <p style="text-align: justify;">
+                  <h3>Lorem ipsum</h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda earum animi perspiciatis, voluptas dolorum dolorem quibusdam exercitationem incidunt quae id saepe consequatur ad commodi amet architecto repellat maiores? Repellendus, numquam.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda earum animi perspiciatis, voluptas dolorum dolorem quibusdam exercitationem incidunt quae id saepe consequatur ad commodi amet architecto repellat maiores? Repellendus, numquam.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda earum animi perspiciatis, voluptas dolorum dolorem quibusdam exercitationem incidunt quae id saepe consequatur ad commodi amet architecto repellat maiores? Repellendus, numquam.
+                </p>
+              
+                <p style="text-align: justify;">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda earum animi perspiciatis, voluptas dolorum dolorem quibusdam exercitationem incidunt quae id saepe consequatur ad commodi amet architecto repellat maiores? Repellendus, numquam.
+                </p>
+              
+                <p style="text-align: justify;">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda earum animi perspiciatis, voluptas dolorum dolorem quibusdam exercitationem incidunt quae id saepe consequatur ad commodi amet architecto repellat maiores? Repellendus, numquam.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda earum animi perspiciatis, voluptas dolorum dolorem quibusdam exercitationem incidunt quae id saepe consequatur ad commodi amet architecto repellat maiores? Repellendus, numquam.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda earum animi perspiciatis, voluptas dolorum dolorem quibusdam exercitationem incidunt quae id saepe consequatur ad commodi amet architecto repellat maiores? Repellendus, numquam.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda earum animi perspiciatis, voluptas dolorum dolorem quibusdam exercitationem incidunt quae id saepe consequatur ad commodi amet architecto repellat maiores? Repellendus, numquam.
+
+                </p>
+              </div>
+              <div class="clearfix">
+                <a href="index.html">
+                <img src="imagens/l.png" class="col-md-6 float-md-3 mb-3 ms-md-3" alt="...">
+              </a>
+                <p style="text-align: justify;">
+                  <h3>Lorem ipsum</h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda earum animi perspiciatis, voluptas dolorum dolorem quibusdam exercitationem incidunt quae id saepe consequatur ad commodi amet architecto repellat maiores? Repellendus, numquam.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda earum animi perspiciatis, voluptas dolorum dolorem quibusdam exercitationem incidunt quae id saepe consequatur ad commodi amet architecto repellat maiores? Repellendus, numquam.
+
+                </p>
+              
+                <p style="text-align: justify;">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda earum animi perspiciatis, voluptas dolorum dolorem quibusdam exercitationem incidunt quae id saepe consequatur ad commodi amet architecto repellat maiores? Repellendus, numquam.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda earum animi perspiciatis, voluptas dolorum dolorem quibusdam exercitationem incidunt quae id saepe consequatur ad commodi amet architecto repellat maiores? Repellendus, numquam.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda earum animi perspiciatis, voluptas dolorum dolorem quibusdam exercitationem incidunt quae id saepe consequatur ad commodi amet architecto repellat maiores? Repellendus, numquam.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda earum animi perspiciatis, voluptas dolorum dolorem quibusdam exercitationem incidunt quae id saepe consequatur ad commodi amet architecto repellat maiores? Repellendus, numquam.
+
+                </p>
+              
+                <p style="text-align: justify;">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda earum animi perspiciatis, voluptas dolorum dolorem quibusdam exercitationem incidunt quae id saepe consequatur ad commodi amet architecto repellat maiores? Repellendus, numquam.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda earum animi perspiciatis, voluptas dolorum dolorem quibusdam exercitationem incidunt quae id saepe consequatur ad commodi amet architecto repellat maiores? Repellendus, numquam.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda earum animi perspiciatis, voluptas dolorum dolorem quibusdam exercitationem incidunt quae id saepe consequatur ad commodi amet 
+                </p>
+              </div>
+              </div>
+              <br>
+              <br>
+              <br>
+              <br>
+              <div class="clearfix">
+                <a href="index.html">
+                <img src="imagens/batata.png" class="col-md-6 float-md-end mb-3 ms-md-3" alt="...">
+              </a>
+                <p style="text-align: justify;">
+                  <h3>Lorem ipsum</h3> Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda earum animi perspiciatis, voluptas dolorum dolorem quibusdam exercitationem incidunt quae id saepe consequatur ad commodi amet architecto repellat maiores? Repellendus, numquam.
+
+                </p>
+              
+                <p style="text-align: justify;">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda earum animi perspiciatis, voluptas dolorum dolorem quibusdam exercitationem incidunt quae id saepe consequatur ad commodi amet architecto repellat maiores? Repellendus, numquam.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda earum animi perspiciatis, voluptas dolorum dolorem quibusdam exercitationem incidunt quae id saepe consequatur ad commodi amet architecto repellat maiores? Repellendus, numquam.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda earum animi perspiciatis, voluptas dolorum dolorem quibusdam exercitationem incidunt quae id saepe consequatur ad commodi amet architecto repellat maiores? Repellendus, numquam.
+
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda earum animi perspiciatis, voluptas dolorum dolorem quibusdam exercitationem incidunt quae id saepe consequatur ad commodi amet architecto repellat maiores? Repellendus, numquam.
+                </p>
+              
+                <p style="text-align: justify;">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda earum animi perspiciatis, voluptas dolorum dolorem quibusdam exercitationem incidunt quae id saepe consequatur ad commodi amet architecto repellat maiores? Repellendus, numquam.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda earum animi perspiciatis, voluptas dolorum dolorem quibusdam exercitationem incidunt quae id saepe consequatur ad commodi amet architecto repellat maiores? Repellendus, numquam.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda earum animi perspiciatis, voluptas dolorum dolorem quibusdam exercitationem incidunt quae id saepe consequatur ad commodi amet architecto repellat maiores? Repellendus, numquam.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda earum animi perspiciatis, voluptas dolorum dolorem quibusdam exercitationem incidunt quae id saepe consequatur ad commodi amet architecto repellat maiores? Repellendus, numquam.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </p>
+              </div>
+            </div>
+          </div>
+
+        </destaques>
+
+  <style>
+              body {
+                  margin: 60px;
+              }
+       /*------Rodapé------ */
+       .rodape{
+        padding: 50px 50px 0;
+       }
+
+       .rodape .info-contato p{
+        margin: 0px;
+       }
+
+       .rodape a{
+        text-decoration: none;
+        color: #000;
+        font-size: 13px;
+       }
+
+       .rodape a:hover{
+        font-weight: bold;
+       }
+
+       .rodape .redes-sociais{
+        display: inline-block;
+       }
+
+       .rodape .redes-sociais img{
+        width: 45px;
+        height: 40px;
+       }
+
+       .rodape p.direitos{
+        text-align: center;
+        margin-top: 40px;
+       }
+
+  </style>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<!---------------------------------------------------------meio----------------------------------------------------------->
+
+<meio class="meio">
+    </div>
+    <div class="container">
+        <a href="index.html">
+            <img src="imagens/barracentral.png" width="100%">
+        </a>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <a href="index.html">
+      <img style="height: 900px; width: 250px;" src="imagens/placeholder.jpg" class="rounded float-start">
+      <img style="height: 900px; width: 250px;" src="imagens/placeholder.jpg" class="rounded float-end">
+      </a>
+    <br>
+    <br>
+    <h1 style="text-align: center; text-decoration: underline;"> Internet </h1>
+    <br>
+<br>
+<br>
+<div class="container">
+  <div class="row">
+    <div class="col"><img class="col-sm-3 col-lg-4" style="height: 130px; width: 200px;" src="imagens/placeholder.jpg"></div>
+    <div class="col"><img class="col-sm-3 col-lg-4" style="height: 130px; width: 200px;" src="imagens/placeholder.jpg"></div>
+    <div class="col"><img class="col-sm-3 col-lg-4" style="height: 130px; width: 200px;" src="imagens/placeholder.jpg"></div>
+    <div class="col"><img class="col-sm-3 col-lg-4" style="height: 130px; width: 200px;" src="imagens/placeholder.jpg"></div>
+  </div>
+  <br>
+<br>
+<br>
+    <div class="container">
+      <div class="row row-cols-2"  style="margin: 50px;">
+        <div class="col"><a href="index.html">
+          <img src="imagens/ruth.png">
+        </a>         
+        <p style="text-align: justify;"><h3>Lorem ipsum</h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda earum animi perspiciatis, voluptas dolorum dolorem quibusdam exercitationem incidunt quae id saepe consequatur ad commodi amet architecto repellat maiores? Repellendus, numquam.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda earum animi perspiciatis, voluptas dolorum dolorem quibusdam exercitationem incidunt quae id saepe consequatur ad commodi amet architecto repellat maiores? Repellendus, numquam.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda earum animi perspiciatis, voluptas dolorum dolorem quibusdam exercitationem incidunt quae id saepe consequatur ad commodi amet architecto repellat maiores? Repellendus, numquam.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda earum animi perspiciatis, voluptas dolorum dolorem quibusdam exercitationem incidunt quae id saepe consequatur ad commodi amet architecto repellat maiores? Repellendus, numquam.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda earum animi perspiciatis, voluptas dolorum dolorem quibusdam exercitationem incidunt quae id saepe consequatur ad commodi amet architecto repellat maiores? Repellendus, numquam.</p></div>
+        
+        <div class="col"><a href="index.html">
+          <a href="index.html">
+          <img src="imagens/demervaldo.png">
+        </a>        
+        <p style="text-align: justify;"><h3>Lorem ipsum</h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda earum animi perspiciatis, voluptas dolorum dolorem quibusdam exercitationem incidunt quae id saepe consequatur ad commodi amet architecto repellat maiores? Repellendus, numquam.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda earum animi perspiciatis, voluptas dolorum dolorem quibusdam exercitationem incidunt quae id saepe consequatur ad commodi amet architecto repellat maiores? Repellendus, numquam.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda earum animi perspiciatis, voluptas dolorum dolorem quibusdam exercitationem incidunt quae id saepe consequatur ad commodi amet architecto repellat maiores? Repellendus, numquam.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda earum animi perspiciatis, voluptas dolorum dolorem quibusdam exercitationem incidunt quae id saepe consequatur ad commodi amet architecto repellat maiores? Repellendus, numquam.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda earum animi perspiciatis, voluptas dolorum dolorem quibusdam exercitationem incidunt quae id saepe consequatur ad commodi amet architecto repellat maiores? Repellendus, numquam.</p></div>
+        <div class="col"><a href="index.html">
+          <img src="imagens/elsword.png">
+        </a>         
+        <p style="text-align: justify;"><h3>Lorem ipsum</h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda earum animi perspiciatis, voluptas dolorum dolorem quibusdam exercitationem incidunt quae id saepe consequatur ad commodi amet architecto repellat maiores? Repellendus, numquam.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda earum animi perspiciatis, voluptas dolorum dolorem quibusdam exercitationem incidunt quae id saepe consequatur ad commodi amet architecto repellat maiores? Repellendus, numquam.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda earum animi perspiciatis, voluptas dolorum dolorem quibusdam exercitationem incidunt quae id saepe consequatur ad commodi amet architecto repellat maiores? Repellendus, numquam.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda earum animi perspiciatis, voluptas dolorum dolorem quibusdam exercitationem incidunt quae id saepe consequatur ad commodi amet architecto repellat maiores? Repellendus, numquam.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda earum animi perspiciatis, voluptas dolorum dolorem quibusdam exercitationem incidunt quae id saepe consequatur ad commodi amet architecto repellat maiores? Repellendus, numquam.</p></div>
+        <div class="col"><a href="index.html">
+          <img src="imagens/gravida.png">
+        </a>         
+        <p style="text-align: justify;"><h3>Lorem ipsum</h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda earum animi perspiciatis, voluptas dolorum dolorem quibusdam exercitationem incidunt quae id saepe consequatur ad commodi amet architecto repellat maiores? Repellendus, numquam.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda earum animi perspiciatis, voluptas dolorum dolorem quibusdam exercitationem incidunt quae id saepe consequatur ad commodi amet architecto repellat maiores? Repellendus, numquam.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda earum animi perspiciatis, voluptas dolorum dolorem quibusdam exercitationem incidunt quae id saepe consequatur ad commodi amet architecto repellat maiores? Repellendus, numquam.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda earum animi perspiciatis, voluptas dolorum dolorem quibusdam exercitationem incidunt quae id saepe consequatur ad commodi amet architecto repellat maiores? Repellendus, numquam.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda earum animi perspiciatis, voluptas dolorum dolorem quibusdam exercitationem incidunt quae id saepe consequatur ad commodi amet architecto repellat maiores? Repellendus, numquam.</p></div>
+      </div>
+    </div>
+
+    <br>
+    <br>
+    <br>
+    <div class="container">
+      <div class="row">
+        <div class="col"><img class="col-sm-3 col-lg-4" style="height: 130px; width: 200px;" src="imagens/placeholder.jpg"></div>
+        <div class="col"><img class="col-sm-3 col-lg-4" style="height: 130px; width: 200px;" src="imagens/placeholder.jpg"></div>
+        <div class="col"><img class="col-sm-3 col-lg-4" style="height: 130px; width: 200px;" src="imagens/placeholder.jpg"></div>
+        <div class="col"><img class="col-sm-3 col-lg-4" style="height: 130px; width: 200px;" src="imagens/placeholder.jpg"></div>
+      </div>
+      <br>
+    <br>
+    <br>
+
+</meio>
+    <h1 style="text-align: center; text-decoration: underline;"> Vida e saúde </h1>
+    <br>
+    <br>
+    <div class="container2">
+      <a href="index.html">
+        <img style="height: 900px; width: 250px;" src="imagens/placeholder.jpg" class="rounded float-start">
+        <img style="height: 900px; width: 250px;" src="imagens/placeholder.jpg" class="rounded float-end">
+        </a>
+      <div class="row row-cols-2">
+        <div class="clearfix">
+          <a href="index.html">
+          <img src="imagens/amor.png" class="col-md-6 float-md-end mb-3 ms-md-3" alt="...">
+        </a>
+          <p style="text-align: justify;">
+            <h3>Lorem ipsum</h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda earum animi perspiciatis, voluptas dolorum dolorem quibusdam exercitationem incidunt quae id saepe consequatur ad commodi amet architecto repellat maiores? Repellendus, numquam.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda earum animi perspiciatis, voluptas dolorum dolorem quibusdam exercitationem incidunt quae id saepe consequatur ad commodi amet architecto repellat maiores? Repellendus, numquam.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda earum animi perspiciatis, voluptas dolorum dolorem quibusdam exercitationem incidunt quae id saepe consequatur ad commodi amet architecto repellat maiores? Repellendus, numquam.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda earum animi perspiciatis, voluptas dolorum dolorem quibusdam exercitationem incidunt quae id saepe consequatur ad commodi amet architecto repellat maiores? Repellendus, numquam.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda earum animi perspiciatis, voluptas dolorum dolorem quibusdam exercitationem incidunt quae id saepe consequatur ad commodi amet architecto repellat maiores? Repellendus, numquam.
+          </p>
+        
+          <p style="text-align: justify;">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda earum animi perspiciatis, voluptas dolorum dolorem quibusdam exercitationem incidunt quae id saepe consequatur ad commodi amet architecto repellat maiores? Repellendus, numquam.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda earum animi perspiciatis, voluptas dolorum dolorem quibusdam exercitationem incidunt quae id saepe consequatur ad commodi amet architecto repellat maiores? Repellendus, numquam.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda earum animi perspiciatis, voluptas dolorum dolorem quibusdam exercitationem incidunt quae id saepe consequatur ad commodi amet architecto repellat maiores? Repellendus, numquam.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda earum animi perspiciatis, voluptas dolorum dolorem quibusdam exercitationem incidunt quae id saepe consequatur ad commodi amet architecto repellat maiores? Repellendus, numquam.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda earum animi perspiciatis, voluptas dolorum dolorem quibusdam exercitationem incidunt quae id saepe consequatur ad commodi amet architecto repellat maiores? Repellendus, numquam.
+          </p>
+        
+          <p style="text-align: justify;">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda earum animi perspiciatis, voluptas dolorum dolorem quibusdam exercitationem incidunt quae id saepe consequatur ad commodi amet architecto repellat maiores? Repellendus, numquam.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda earum animi perspiciatis, voluptas dolorum dolorem quibusdam exercitationem incidunt quae id saepe consequatur ad commodi amet architecto repellat maiores? Repellendus, numquam.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda earum animi perspiciatis, voluptas dolorum dolorem quibusdam exercitationem incidunt quae id saepe consequatur ad commodi amet architecto repellat maiores? Repellendus, numquam.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda earum animi perspiciatis, voluptas dolorum dolorem quibusdam exercitationem incidunt quae id saepe consequatur ad commodi amet architecto repellat maiores? Repellendus, numquam.
+          <a href="index.html">
+          <img src="imagens/amor2.png" class="col-md-6 float-md-end mb-3 ms-md-3" alt="...">
+        </a>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda earum animi perspiciatis, voluptas dolorum dolorem quibusdam exercitationem incidunt quae id saepe consequatur ad commodi amet architecto repellat maiores? Repellendus, numquam.
+          </p>
+        </div>
+        <div class="clearfix">
+          <a href="index.html">
+          <img src="imagens/sorvete.png" class="col-md-6 float-md-end mb-3 ms-md-3" alt="...">
+        </a>
+          <p style="text-align: justify;">
+            <h3>Lorem ipsum</h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda earum animi perspiciatis, voluptas dolorum dolorem quibusdam exercitationem incidunt quae id saepe consequatur ad commodi amet architecto repellat maiores? Repellendus, numquam.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda earum animi perspiciatis, voluptas dolorum dolorem quibusdam exercitationem incidunt quae id saepe consequatur ad commodi amet architecto repellat maiores? Repellendus, numquam.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda earum animi perspiciatis, voluptas dolorum dolorem quibusdam exercitationem incidunt quae id saepe consequatur ad commodi amet architecto repellat maiores? Repellendus, numquam.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda earum animi perspiciatis, voluptas dolorum dolorem quibusdam exercitationem incidunt quae id saepe consequatur ad commodi amet architecto repellat maiores? Repellendus, numquam.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda earum animi perspiciatis, voluptas dolorum dolorem quibusdam exercitationem incidunt quae id saepe consequatur ad commodi amet architecto repellat maiores? Repellendus, numquam.
+          </p>
+          <p style="text-align: justify;">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda earum animi perspiciatis, voluptas dolorum dolorem quibusdam exercitationem incidunt quae id saepe consequatur ad commodi amet architecto repellat maiores? Repellendus, numquam.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda earum animi perspiciatis, voluptas dolorum dolorem quibusdam exercitationem incidunt quae id saepe consequatur ad commodi amet architecto repellat maiores? Repellendus, numquam.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda earum animi perspiciatis, voluptas dolorum dolorem quibusdam exercitationem incidunt quae id saepe consequatur ad commodi amet architecto repellat maiores? Repellendus, numquam.
+          <a href="index.html">
+          <img src="imagens/sorvete2.png" class="col-md-6 float-md-end mb-3 ms-md-3" alt="..."></a>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda earum animi perspiciatis, voluptas dolorum dolorem quibusdam exercitationem incidunt quae id saepe consequatur ad commodi amet architecto repellat maiores? Repellendus, numquam.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda earum animi perspiciatis, voluptas dolorum dolorem quibusdam exercitationem incidunt quae id saepe consequatur ad commodi amet architecto repellat maiores? Repellendus, numquam.
+          </p>
+        
+          <p style="text-align: justify;">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda earum animi perspiciatis, voluptas dolorum dolorem quibusdam exercitationem incidunt quae id saepe consequatur ad commodi amet architecto repellat maiores? Repellendus, numquam.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda earum animi perspiciatis, voluptas dolorum dolorem quibusdam exercitationem incidunt quae id saepe consequatur ad commodi amet architecto repellat maiores? Repellendus, numquam.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda earum animi perspiciatis, voluptas dolorum dolorem quibusdam exercitationem incidunt quae id saepe consequatur ad commodi amet architecto repellat maiores? Repellendus, numquam.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda earum animi perspiciatis, voluptas dolorum dolorem quibusdam exercitationem incidunt quae id saepe consequatur ad commodi amet architecto repellat maiores? Repellendus, numquam.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda earum animi perspiciatis, voluptas dolorum dolorem quibusdam exercitationem incidunt quae id saepe consequatur ad commodi amet architecto repellat maiores? Repellendus, numquam.
+          </p>
+        </div>
+      </div>
+    </div>
+<br>
+<br>
+<br>
+<br>
+<div class="container">
+  <div class="row">
+    <div class="col"><img class="col-sm-3 col-lg-4" style="height: 130px; width: 250px;" src="imagens/placeholder.jpg"></div>
+    <div class="col"><img class="col-sm-3 col-lg-4" style="height: 130px; width: 250px;" src="imagens/placeholder.jpg"></div>
+    <div class="col"><img class="col-sm-3 col-lg-4" style="height: 130px; width: 250px;" src="imagens/placeholder.jpg"></div>
+    <div class="col"><img class="col-sm-3 col-lg-4" style="height: 130px; width: 250px;" src="imagens/placeholder.jpg"></div>
+  </div>
+
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+
+  <footer class="rodape">
+    <div class="container">
+      <div class="row m-0">
+
+        <!-- início do logo -->
+        <div class="col-md-4">
+          <figure>
+            <img src="imagens/icon.jpg" alt="logo-rodape" width="40%">
+          </figure> 
+        </div>  <!-- Fim do logo -->
+
+        <!-- início do Texto -->
+        <div class="col-md-4">
+          <div class="info-contato">
+            <p>email:</p>
+            <p>esemple@exemple.com</p><br>
+            <p>Endereço:</p>
+            <p>Avenida ABC - 123C</p><br>
+            <p>Telefone:</p>
+            <p>+55 (11) 9.9999-9999</p><br> 
+          </div>
+        </div> <!-- Fim do Texto -->
+
+         <!-- início do Midias Sociais -->
+         <div class="col-md-4">
+          <figure class="redes-sociais">
+            <a href="#"><img src="imagens/placeholder.jpg"></a>
+            <a href="#"><img src="imagens/placeholder.jpg"></a>
+            <a href="#"><img src="imagens/placeholder.jpg"></a>
+            <a href="#"><img src="imagens/placeholder.jpg"></a>  
+          </figure>
+          <br>
+          <a href="#">Jogos</a><br>
+          <a href="#">Hardware</a><br>
+          <a href="#">Celulares</a><br>
+          <a href="#">Pc Gamer</a><br>
+          <a href="#">Contato</a><br>
+          <a href="#">Login</a> <br>
+         </div>
+         <!-- Fim do Midias Sociais -->
+
+         <!-- início dos Direitos Autorais -->
+         <div class="col-12">
+          <p class="direitos">Direitos Autorais</p> 
+         </div><!-- Fim dos Direitos Autorais -->
+
+      </div> 
+    </div>  
+  </footer>
+    
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
